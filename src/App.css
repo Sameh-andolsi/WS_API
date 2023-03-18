@@ -1,38 +1,52 @@
+
 .App {
+  
   text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  margin-top: 20px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
 }
+.container{
+  /* border: 1px solid red; */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+width: 650px;
+height: 140px;
+ background-color: beige;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+ background: #d9a7c7; 
+  background: -webkit-linear-gradient(to right, #d9a7c7, #fffcdc);
+  background: linear-gradient(to right, #d9a7c7, #fffcdc); 
+
+
+
+
+
+
+
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container  h1{
+  font-family: cursive;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-size: larger;
+  font-style: italic;
+color:rgb(32, 85, 138)
 }
-
-.App-link {
-  color: #61dafb;
+.container p {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: oblique;
+text-align: center;
 }
+.container:hover {
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ transform: scale(1.04);
 }
